@@ -17,8 +17,9 @@
     "redux": "^4.0.1"
   },
   "scripts": {
-    "dev": "NODE_ENV=development node server",
-    "build": "next build"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": "react-app"
