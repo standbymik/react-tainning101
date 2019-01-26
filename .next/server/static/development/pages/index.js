@@ -157,7 +157,7 @@ function (_Component) {
           lineNumber: 8
         },
         __self: this
-      }, "\u0E2B\u0E19\u0E49\u0E32\u0E41\u0E23\u0E01 Pantip.com"));
+      }, "StandbyMik"));
     }
   }]);
 

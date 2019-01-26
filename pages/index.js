@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <React.Fragment>
         <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
-          หน้าแรก Pantip.com
+          StandbyMik
         </div>
       </React.Fragment>
 
