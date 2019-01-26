@@ -5,7 +5,7 @@ class Home extends Component {
 
     return (
       <React.Fragment>
-        <div style={{textAlign : 'center',height:'500px',paddingTop:'10%'}}>
+        <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
           หน้าแรก Pantip.com
         </div>
       </React.Fragment>

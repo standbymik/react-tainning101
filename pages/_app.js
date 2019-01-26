@@ -2,12 +2,8 @@ import React from 'react'
 import { Provider } from "react-redux";
 import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
+import { makeStore } from "../src/components/store";
 import ConnectedLayout from "../components/Layout";
-import reducer from '../src/reducers'
-
-const makeStore = (initialState, options) => {
-    return createStore(reducer, initialState);
-};
 
 export default withRedux(makeStore, { debug: true })(class MyApp extends App {
 
