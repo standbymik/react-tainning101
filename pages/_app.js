@@ -1,43 +1,38 @@
 import React from 'react'
-import createReduxStore from '../src/utilities/CreateReduxStore'
-import withRedux from 'next-redux-wrapper'
-import App, { Container } from 'next/app'
-import { Provider } from 'react-redux'
-//EEimport '../static/css/main.css'
+import { Provider } from "react-redux";
+import App, { Container } from "next/app";
+import withRedux from "next-redux-wrapper";
+import ConnectedLayout from "../components/Layout";
+import reducer from '../src/reducers'
 
-import ConnectedLayout from '../src/components/Layout'
+const makeStore = (initialState, options) => {
+    return createStore(reducer, initialState);
+};
 
-import 'babel-polyfill'
+export default withRedux(makeStore, { debug: true })(class MyApp extends App {
 
-const ReduxStore = (initialState, options) => createReduxStore(initialState, options)
+    static async getInitialProps({ Component, ctx }) {
 
-class MyApp extends App {
+        return {
+            pageProps: {
+                // Call page-level getInitialProps
+                ...(Component.getInitialProps ? await Component.getInitialProps(ctx) : {})
+            }
+        };
 
-    static async getInitialProps({ Component, router, ctx }) {
-
-        const pageProps = {}
-
-        if (Component.getInitialProps) {
-            pageProps = await Component.getInitialProps(ctx)
-        }
-
-        return
     }
 
     render() {
-        const { Component, pageProps, store, router } = this.props
-
+        const { Component, pageProps, store } = this.props;
         return (
             <Container>
                 <Provider store={store}>
-                    <ConnectedLayout pathname={router.pathname ? router.pathname : null}>
+                    <ConnectedLayout>
                         <Component {...pageProps} />
                     </ConnectedLayout>
                 </Provider>
             </Container>
-        )
+        );
     }
 
-}
-
-export default withRedux(ReduxStore)(MyApp)
+});
