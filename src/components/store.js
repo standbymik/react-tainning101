@@ -1,15 +1,17 @@
-import { createStore } from 'redux';
-import reducers from '../reducers';
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import reducers from '../reducers'
+import Cookies from 'universal-cookie'
+//import { getMemberIdfromtoken } from '../utilities'
 
-export const makeStore = initialState => {
-    const store = createStore(reducers, initialState);
+const createReduxStore = (initialState, options) => {
 
-    if (module.hot) {
-        module.hot.accept('../reducers', () => {
-            console.log('Replacing reducers');
-            store.replaceReducer(require('../reducers').default);
-        });
-    }
+    const store = createStore(
+        reducers, 
+        applyMiddleware(thunk)
+    )
 
-    return store;
-};
+    return store
+}
+
+export default createReduxStore

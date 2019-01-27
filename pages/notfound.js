@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 
-class Home extends Component {
-
+class Notfound extends Component {
   render() {
-    console.log('index')
+    console.log('notfound')
 
     return (
-      <div>
+      <React.Fragment>
         <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
-          StandbyMik
+          Not Found
         </div>
-      </div>
+      </React.Fragment>
+
     );
   }
 }
 
-export default Home
+export default Notfound

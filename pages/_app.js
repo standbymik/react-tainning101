@@ -2,33 +2,38 @@ import React from 'react'
 import { Provider } from "react-redux";
 import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
-import { makeStore } from "../src/components/store";
+import createReduxStore from '../src/components/store'
 import ConnectedLayout from "../components/Layout";
 
-export default withRedux(makeStore, { debug: true })(class MyApp extends App {
+const ReduxStore = (initialState, options) => createReduxStore(initialState, options)
 
-    static async getInitialProps({ Component, ctx }) {
+class MyApp extends App {
 
-        return {
-            pageProps: {
-                // Call page-level getInitialProps
-                ...(Component.getInitialProps ? await Component.getInitialProps(ctx) : {})
-            }
-        };
+    static async getInitialProps({ Component, router, ctx }) {
 
+        let pageProps = {}
+
+        if (Component.getInitialProps) {
+          pageProps = await Component.getInitialProps(ctx)
+        }
+    
+        return { pageProps }
     }
 
     render() {
-        const { Component, pageProps, store } = this.props;
+        const {Component, pageProps, store, router, member} = this.props
+
         return (
             <Container>
                 <Provider store={store}>
-                    <ConnectedLayout>
+                    <ConnectedLayout pathname={router.pathname ? router.pathname : null} member={member}>
                         <Component {...pageProps} />
                     </ConnectedLayout>
                 </Provider>
             </Container>
-        );
+        )
     }
 
-});
+}
+
+export default withRedux(ReduxStore)(MyApp)

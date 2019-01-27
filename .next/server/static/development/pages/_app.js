@@ -106,8 +106,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\react-front-end\\react-front-end\\components\\Layout.js";
-
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -145,121 +143,44 @@ function (_Component) {
     value: function render() {
       var pathname = this.props.pathname;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "main",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, 'Pantip - Learn, Share & Fun'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        className: "main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, 'Pantip - Learn, Share & Fun'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "canonical",
-        href: "https://react.pantip.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
+        href: "https://react.pantip.com/"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "icon",
         href: "https://pantip.com/fav-icon.ico",
-        type: "image/x-icon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
+        type: "image/x-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:title",
-        content: 'Pantip - Learn, Share & Fun',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
+        content: 'Pantip - Learn, Share & Fun'
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:type",
-        content: "website",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        content: "website"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:url",
-        content: "https://react.pantip.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        content: "https://react.pantip.com/"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:image",
-        content: "//ptcdn.info/pantip/pantip_logo_02.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
+        content: "//ptcdn.info/pantip/pantip_logo_02.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:site_name",
-        content: "Pantip",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        content: "Pantip"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:description",
-        content: "\u0E23\u0E48\u0E27\u0E21\u0E1E\u0E39\u0E14\u0E04\u0E38\u0E22\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E43\u0E19\u0E17\u0E38\u0E01\u0E1B\u0E23\u0E30\u0E40\u0E14\u0E47\u0E19 \u0E17\u0E31\u0E49\u0E07\u0E1A\u0E31\u0E19\u0E40\u0E17\u0E34\u0E07 \u0E2B\u0E38\u0E49\u0E19 \u0E04\u0E27\u0E32\u0E21\u0E07\u0E32\u0E21 \u0E17\u0E48\u0E2D\u0E07\u0E40\u0E17\u0E35\u0E48\u0E22\u0E27 \u0E23\u0E16\u0E22\u0E19\u0E15\u0E4C \u0E01\u0E35\u0E2C\u0E32 \u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E21\u0E37\u0E2D\u0E16\u0E37\u0E2D \u0E2D\u0E32\u0E2B\u0E32\u0E23 \u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07 \u0E04\u0E23\u0E2D\u0E1A\u0E04\u0E23\u0E31\u0E27 \u0E1A\u0E49\u0E32\u0E19 \u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C \u0E2A\u0E38\u0E02\u0E20\u0E32\u0E1E \u0E18\u0E38\u0E23\u0E01\u0E34\u0E08",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
+        content: "\u0E23\u0E48\u0E27\u0E21\u0E1E\u0E39\u0E14\u0E04\u0E38\u0E22\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E43\u0E19\u0E17\u0E38\u0E01\u0E1B\u0E23\u0E30\u0E40\u0E14\u0E47\u0E19 \u0E17\u0E31\u0E49\u0E07\u0E1A\u0E31\u0E19\u0E40\u0E17\u0E34\u0E07 \u0E2B\u0E38\u0E49\u0E19 \u0E04\u0E27\u0E32\u0E21\u0E07\u0E32\u0E21 \u0E17\u0E48\u0E2D\u0E07\u0E40\u0E17\u0E35\u0E48\u0E22\u0E27 \u0E23\u0E16\u0E22\u0E19\u0E15\u0E4C \u0E01\u0E35\u0E2C\u0E32 \u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E21\u0E37\u0E2D\u0E16\u0E37\u0E2D \u0E2D\u0E32\u0E2B\u0E32\u0E23 \u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07 \u0E04\u0E23\u0E2D\u0E1A\u0E04\u0E23\u0E31\u0E27 \u0E1A\u0E49\u0E32\u0E19 \u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C \u0E2A\u0E38\u0E02\u0E20\u0E32\u0E1E \u0E18\u0E38\u0E23\u0E01\u0E34\u0E08"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "google-site-verification",
-        content: "UaiArydZb5Bi28s5YgunZNSoObqXV97zA_OYbSuXAE8",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
+        content: "UaiArydZb5Bi28s5YgunZNSoObqXV97zA_OYbSuXAE8"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "fb:app_id",
-        content: "117368861736328",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
+        content: "117368861736328"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "article:author",
-        content: "https://www.facebook.com/pantipdotcom",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        content: "https://www.facebook.com/pantipdotcom"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "article:publisher",
-        content: "https://www.facebook.com/pantipdotcom",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
+        content: "https://www.facebook.com/pantipdotcom"
       })));
     }
   }]);
@@ -293,19 +214,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/components/store */ "./src/components/store.js");
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 
-var _jsxFileName = "D:\\react-front-end\\react-front-end\\pages\\_app.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -329,9 +243,12 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (next_redux_wrapper__WEBPACK_IMPORTED_MODULE_4___default()(_src_components_store__WEBPACK_IMPORTED_MODULE_5__["makeStore"], {
-  debug: true
-})(
+
+var ReduxStore = function ReduxStore(initialState, options) {
+  return Object(_src_components_store__WEBPACK_IMPORTED_MODULE_5__["default"])(initialState, options);
+};
+
+var MyApp =
 /*#__PURE__*/
 function (_App) {
   _inherits(MyApp, _App);
@@ -348,33 +265,15 @@ function (_App) {
       var _this$props = this.props,
           Component = _this$props.Component,
           pageProps = _this$props.pageProps,
-          store = _this$props.store;
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_2__["Provider"], {
-        store: store,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
+          store = _this$props.store,
+          router = _this$props.router,
+          member = _this$props.member;
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_3__["Container"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_2__["Provider"], {
+        store: store
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      })))));
+        pathname: router.pathname ? router.pathname : null,
+        member: member
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, pageProps))));
     }
   }], [{
     key: "getInitialProps",
@@ -382,39 +281,31 @@ function (_App) {
       var _getInitialProps = _asyncToGenerator(
       /*#__PURE__*/
       _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var Component, ctx;
+        var Component, router, ctx, pageProps;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                Component = _ref.Component, ctx = _ref.ctx;
-                _context.t0 = _objectSpread;
-                _context.t1 = {};
+                Component = _ref.Component, router = _ref.router, ctx = _ref.ctx;
+                pageProps = {};
 
                 if (!Component.getInitialProps) {
-                  _context.next = 9;
+                  _context.next = 6;
                   break;
                 }
 
-                _context.next = 6;
+                _context.next = 5;
                 return Component.getInitialProps(ctx);
 
+              case 5:
+                pageProps = _context.sent;
+
               case 6:
-                _context.t2 = _context.sent;
-                _context.next = 10;
-                break;
-
-              case 9:
-                _context.t2 = {};
-
-              case 10:
-                _context.t3 = _context.t2;
-                _context.t4 = (0, _context.t0)(_context.t1, _context.t3);
                 return _context.abrupt("return", {
-                  pageProps: _context.t4
+                  pageProps: pageProps
                 });
 
-              case 13:
+              case 7:
               case "end":
                 return _context.stop();
             }
@@ -431,7 +322,9 @@ function (_App) {
   }]);
 
   return MyApp;
-}(next_app__WEBPACK_IMPORTED_MODULE_3___default.a)));
+}(next_app__WEBPACK_IMPORTED_MODULE_3___default.a);
+
+/* harmony default export */ __webpack_exports__["default"] = (next_redux_wrapper__WEBPACK_IMPORTED_MODULE_4___default()(ReduxStore)(MyApp));
 
 /***/ }),
 
@@ -439,24 +332,29 @@ function (_App) {
 /*!*********************************!*\
   !*** ./src/components/store.js ***!
   \*********************************/
-/*! exports provided: makeStore */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "makeStore", function() { return makeStore; });
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "redux");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../reducers */ "./src/reducers/index.js");
+/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux-thunk */ "redux-thunk");
+/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../reducers */ "./src/reducers/index.js");
+/* harmony import */ var universal_cookie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! universal-cookie */ "universal-cookie");
+/* harmony import */ var universal_cookie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(universal_cookie__WEBPACK_IMPORTED_MODULE_3__);
 
 
-var makeStore = function makeStore(initialState) {
-  var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(_reducers__WEBPACK_IMPORTED_MODULE_1__["default"], initialState);
 
-  if (false) {}
+ //import { getMemberIdfromtoken } from '../utilities'
 
+var createReduxStore = function createReduxStore(initialState, options) {
+  var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(_reducers__WEBPACK_IMPORTED_MODULE_2__["default"], Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_1___default.a));
   return store;
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (createReduxStore);
 
 /***/ }),
 
@@ -591,6 +489,28 @@ module.exports = require("react-redux");
 /***/ (function(module, exports) {
 
 module.exports = require("redux");
+
+/***/ }),
+
+/***/ "redux-thunk":
+/*!******************************!*\
+  !*** external "redux-thunk" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("redux-thunk");
+
+/***/ }),
+
+/***/ "universal-cookie":
+/*!***********************************!*\
+  !*** external "universal-cookie" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("universal-cookie");
 
 /***/ })
 
