@@ -891,8 +891,12 @@ function (_Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      console.log('about');
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "hahaa");
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        style: {
+          fontSize: 60,
+          color: '#ff00ff'
+        }
+      }, "hahaa");
     }
   }], [{
     key: "getInitialProps",
@@ -950,7 +954,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -975,5 +979,5 @@ module.exports = dll_28e76e2d2e17dda0d4a0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map

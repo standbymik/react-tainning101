@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -146,8 +146,12 @@ function (_Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      console.log('about');
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "hahaa");
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        style: {
+          fontSize: 60,
+          color: '#ff00ff'
+        }
+      }, "hahaa");
     }
   }], [{
     key: "getInitialProps",
@@ -186,7 +190,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

@@ -7,11 +7,11 @@ class Home extends Component {
 
     return (
       <div>
-        <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
+        <div>
           StandbyMik
         </div>
       </div>
-    );
+    )
   }
 }
 

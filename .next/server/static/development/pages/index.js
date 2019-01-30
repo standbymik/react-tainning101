@@ -139,13 +139,7 @@ function (_Component) {
     key: "render",
     value: function render() {
       console.log('index');
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        style: {
-          textAlign: 'center',
-          height: '500px',
-          paddingTop: '10%'
-        }
-      }, "StandbyMik"));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "StandbyMik"));
     }
   }]);
 
