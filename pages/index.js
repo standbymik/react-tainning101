@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 
 class Home extends Component {
+
   render() {
+    console.log('index')
 
     return (
-      <React.Fragment>
-        <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
+      <div>
+        <div>
           StandbyMik
         </div>
-      </React.Fragment>
-
-    );
+      </div>
+    )
   }
 }
 
