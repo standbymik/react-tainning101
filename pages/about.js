@@ -7,7 +7,7 @@ class About extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{fontSize:60,color:'#ff00ff'}}>
         hahaa
       </div>
 
