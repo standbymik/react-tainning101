@@ -138,7 +138,6 @@ function (_Component) {
   _createClass(Notfound, [{
     key: "render",
     value: function render() {
-      console.log('notfound');
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
           textAlign: 'center',

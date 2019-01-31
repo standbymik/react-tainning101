@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -146,7 +146,6 @@ function (_Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      console.log('about');
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "hahaa");
     }
   }], [{
@@ -161,7 +160,7 @@ function (_Component) {
             switch (_context.prev = _context.next) {
               case 0:
                 query = _ref.query;
-                console.log(query);
+                console.log('about', query);
 
               case 2:
               case "end":
@@ -186,7 +185,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

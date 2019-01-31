@@ -2,16 +2,22 @@ import React, { Component } from 'react'
 
 class Home extends Component {
 
-  render() {
+  static async getInitialProps({ query }) {
     console.log('index')
+  }
+
+  render() {
 
     return (
-      <div>
-        <div style={{ textAlign: 'center', height: '500px', paddingTop: '10%' }}>
-          StandbyMik
+      <React.Fragment>
+        <div>
+          <div>
+            StandbyMikหกเหกเหกเหกเหกเหก
+            หกเหกเหกเกหเ
+          </div>
         </div>
-      </div>
-    );
+      </React.Fragment>
+    )
   }
 }
 
