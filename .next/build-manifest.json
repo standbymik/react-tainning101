@@ -11,19 +11,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-<<<<<<< HEAD
     "/index": [
-=======
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/notfound": [
->>>>>>> fdd34e5ad3d2ebb41d9cef3cc5a8d89663d5821c
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

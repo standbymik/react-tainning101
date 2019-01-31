@@ -1,12 +1,6 @@
 const express = require('express')
 const next = require('next')
-<<<<<<< HEAD
-
-const config = require('config')
-const port = parseInt(config.react.port, 10) || 5000
-=======
 const port = 5001
->>>>>>> fdd34e5ad3d2ebb41d9cef3cc5a8d89663d5821c
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 

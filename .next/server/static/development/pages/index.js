@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -146,12 +146,7 @@ function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-<<<<<<< HEAD
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "StandbyMik\u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E2B\u0E01 \u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E2B\u0E01\u0E40\u0E01\u0E2B\u0E40")));
-=======
-      console.log('index');
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "StandbyMik"));
->>>>>>> fdd34e5ad3d2ebb41d9cef3cc5a8d89663d5821c
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "StandbyMik"));
     }
   }], [{
     key: "getInitialProps",
@@ -190,7 +185,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
