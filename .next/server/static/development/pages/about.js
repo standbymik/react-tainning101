@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -168,12 +168,7 @@ function (_Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-<<<<<<< HEAD
                 store = _ref.store, isServer = _ref.isServer, pathname = _ref.pathname, query = _ref.query;
-=======
-                query = _ref.query;
-                console.log('about', query);
->>>>>>> 9638acd78f35397b464788e74978967b4ef2119d
 
               case 1:
               case "end":
@@ -198,7 +193,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

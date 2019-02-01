@@ -1,9 +1,9 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
 
-/***/ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime/regenerator/index.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/@babel/runtime/regenerator/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2155,12 +2155,12 @@ module.exports = hoistNonReactStatics;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_79d71ed344e9fa2adb10 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_79d71ed344e9fa2adb10 */ "dll-reference dll_79d71ed344e9fa2adb10"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -3672,7 +3672,7 @@ function symbolObservablePonyfill(root) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
@@ -3737,12 +3737,7 @@ function (_Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-<<<<<<< HEAD
                 store = _ref.store, isServer = _ref.isServer, pathname = _ref.pathname, query = _ref.query;
-=======
-                query = _ref.query;
-                console.log('about', query);
->>>>>>> 9638acd78f35397b464788e74978967b4ef2119d
 
               case 1:
               case "end":
@@ -3786,7 +3781,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -3800,16 +3795,16 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_79d71ed344e9fa2adb10":
+/***/ "dll-reference dll_28e76e2d2e17dda0d4a0":
 /*!*******************************************!*\
-  !*** external "dll_79d71ed344e9fa2adb10" ***!
+  !*** external "dll_28e76e2d2e17dda0d4a0" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_79d71ed344e9fa2adb10;
+module.exports = dll_28e76e2d2e17dda0d4a0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
