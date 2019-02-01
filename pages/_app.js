@@ -34,6 +34,7 @@ class MyApp extends App {
         )
     }
 
+
 }
 
 export default withRedux(ReduxStore)(MyApp)

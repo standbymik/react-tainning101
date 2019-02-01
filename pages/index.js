@@ -12,8 +12,16 @@ class Home extends Component {
     })
   }
 
+<<<<<<< HEAD
   render() {
 
+=======
+  static async getInitialProps({ query }) {
+    console.log('index')
+  }
+
+  render() {
+>>>>>>> 9638acd78f35397b464788e74978967b4ef2119d
 
     return (
       <div>

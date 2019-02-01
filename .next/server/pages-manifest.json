@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"/_app":"static\\development\\pages\\_app.js","/_error":"static\\development\\pages\\_error.js","/_document":"static\\development\\pages\\_document.js","/index":"static\\development\\pages\\index.js","/about":"static\\development\\pages\\about.js","/":"static\\development\\pages\\index.js"}
+=======
+{"/_app":"static\\development\\pages\\_app.js","/_error":"static\\development\\pages\\_error.js","/_document":"static\\development\\pages\\_document.js","/index":"static\\development\\pages\\index.js","/notfound":"static\\development\\pages\\notfound.js","/about":"static\\development\\pages\\about.js","/":"static\\development\\pages\\index.js"}
+>>>>>>> 9638acd78f35397b464788e74978967b4ef2119d

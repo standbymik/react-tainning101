@@ -1,6 +1,6 @@
 {
   "devFiles": [
-    "static/development/dll/dll_3eb06486a5080ef1251b.js"
+    "static/development/dll/dll_29ef5882d12725fb5988.js"
   ],
   "pages": {
     "/_app": [
@@ -15,10 +15,17 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/notfound": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+<<<<<<< HEAD
+=======
     "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+>>>>>>> 9638acd78f35397b464788e74978967b4ef2119d
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
