@@ -22,15 +22,4 @@ class Home extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return { login: state.login }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onLogin: () => {
-      dispatch({ type: 'SUCCESS', login: 'Standbymik' })
-    }
-  }
-}
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default connect()(Home)

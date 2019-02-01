@@ -5,11 +5,13 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "antd": "^3.11.2",
-    "autoprefixer": "^9.3.0",
+    "autoprefixer": "^9.4.7",
     "axios": "^0.18.0",
+    "babel-plugin-react-css-modules": "^5.0.0",
     "classnames": "^2.2.6",
     "config": "^2.0.1",
     "crypto-js": "^3.1.9-1",
+    "css-loader": "^2.1.0",
     "dom-helpers": "^3.3.1",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.3.0",
@@ -21,6 +23,8 @@
     "nookies": "^1.2.0",
     "path": "^0.12.7",
     "postcss-easy-import": "^3.0.0",
+    "postcss-load": "^0.1.6",
+    "postcss-loader": "^3.0.0",
     "postcss-url": "^8.0.0",
     "prop-types": "^15.6.2",
     "qs": "^6.5.2",
@@ -42,10 +46,10 @@
     "redux-thunk": "^2.3.0",
     "reqwest": "^2.0.5",
     "shortid": "^2.2.12",
+    "style-loader": "^0.23.1",
     "ui-box": "^1.4.0",
     "universal-cookie": "^2.2.0",
     "webpack": "^4.22.0"
-
   },
   "scripts": {
     "dev": "node server",

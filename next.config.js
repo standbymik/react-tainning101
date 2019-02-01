@@ -1,4 +1,11 @@
 const withCSS = require('@zeit/next-css')
 module.exports = withCSS({
-  cssModules: true
+  postcssLoaderOptions: {
+    parser: true,
+    config: {
+      ctx: {
+        theme: JSON.stringify(process.env.REACT_APP_THEME)
+      }
+    }
+  }
 })
