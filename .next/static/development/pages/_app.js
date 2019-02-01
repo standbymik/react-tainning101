@@ -12773,7 +12773,9 @@ __webpack_require__.r(__webpack_exports__);
 
   switch (action.type) {
     case 'SUCCESS':
-      return state;
+      return {
+        login: action.login
+      };
 
     default:
       return state;
