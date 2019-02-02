@@ -53,7 +53,7 @@
   },
   "scripts": {
     "dev": "node server",
-    "prod": "NODE_ENV=production node server",
+    "prod": "pm2 start server.js --name react",
     "build": "next build",
     "storybook": "start-storybook -p 9002 -s .storybook",
     "build-storybook": "build-storybook -s public",

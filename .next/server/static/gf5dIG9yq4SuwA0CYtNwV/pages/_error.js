@@ -88,40 +88,28 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/next/dist/pages/_error.js":
-/*!************************************************!*\
-  !*** ./node_modules/next/dist/pages/_error.js ***!
-  \************************************************/
-/*! no static exports found */
+/***/ 16:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next/error */ "next/error")
+module.exports = __webpack_require__(17);
 
 
 /***/ }),
 
-/***/ 1:
-/*!******************************************************!*\
-  !*** multi ./node_modules/next/dist/pages/_error.js ***!
-  \******************************************************/
-/*! no static exports found */
+/***/ 17:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\react-front-end\react-front-end\node_modules\next\dist\pages\_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(18)
 
 
 /***/ }),
 
-/***/ "next/error":
-/*!*****************************!*\
-  !*** external "next/error" ***!
-  \*****************************/
-/*! no static exports found */
+/***/ 18:
 /***/ (function(module, exports) {
 
 module.exports = require("next/error");
@@ -129,4 +117,3 @@ module.exports = require("next/error");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_error.js.map
