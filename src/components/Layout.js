@@ -11,6 +11,7 @@ class ConnectedLayout extends Component {
             <div>
                 <Head>
                     <title>{'StandbyMik'}</title>
+                    <link rel="stylesheet" href="../../static/css/main.css" />
                 </Head>
                 <div className="container">
                     {this.props.children}

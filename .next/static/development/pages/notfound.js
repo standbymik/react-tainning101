@@ -37,12 +37,12 @@ module.exports = function(originalModule) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_79d71ed344e9fa2adb10 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_79d71ed344e9fa2adb10 */ "dll-reference dll_79d71ed344e9fa2adb10"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -91,7 +91,6 @@ function (_Component) {
   _createClass(Notfound, [{
     key: "render",
     value: function render() {
-      console.log('notfound');
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
           textAlign: 'center',
@@ -128,7 +127,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/notfound.js ***!
   \*********************************/
@@ -142,16 +141,16 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_28e76e2d2e17dda0d4a0":
+/***/ "dll-reference dll_79d71ed344e9fa2adb10":
 /*!*******************************************!*\
-  !*** external "dll_28e76e2d2e17dda0d4a0" ***!
+  !*** external "dll_79d71ed344e9fa2adb10" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_28e76e2d2e17dda0d4a0;
+module.exports = dll_79d71ed344e9fa2adb10;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=notfound.js.map

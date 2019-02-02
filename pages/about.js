@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
 class About extends Component {
-  static async getInitialProps({ query }) {
-    console.log(query)
+
+  static async getInitialProps({ store, isServer, pathname, query }) {
+
   }
 
   render() {
+
+    console.log(this.props.login)
+
     return (
-      <div style={{fontSize:60,color:'#ff00ff'}}>
+      <div style={{ fontSize: 60, color: '#ff00ff' }}>
         hahaa
       </div>
 
@@ -15,4 +20,4 @@ class About extends Component {
   }
 }
 
-export default About
+export default connect()(About)

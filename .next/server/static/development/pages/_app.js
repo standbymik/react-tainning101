@@ -278,7 +278,10 @@ function (_Component) {
       var _this$props = this.props,
           pathname = _this$props.pathname,
           member = _this$props.member;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, 'StandbyMik')), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, 'StandbyMik'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "../../static/css/main.css"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, this.props.children));
     }
@@ -357,7 +360,9 @@ __webpack_require__.r(__webpack_exports__);
 
   switch (action.type) {
     case 'SUCCESS':
-      return state;
+      return {
+        login: action.login
+      };
 
     default:
       return state;
