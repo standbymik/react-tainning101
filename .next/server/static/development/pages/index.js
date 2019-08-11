@@ -156,7 +156,21 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Home)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      name: 'mik'
+      name: ''
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "changeName", function (e) {
+      var value = e.target.value;
+
+      _this.setState(function () {
+        return {
+          name: value
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "dispatchName", function () {
+      _this.props.changeLogin(_this.state.name);
     });
 
     return _this;
@@ -165,7 +179,17 @@ function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, this.state.name);
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u0E04\u0E48\u0E32\u0E08\u0E32\u0E01 Store : ", this.props.login.login), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+        type: "text",
+        value: this.state.name,
+        onChange: function onChange(e) {
+          _this2.changeName(e);
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+        onClick: this.dispatchName
+      }, "Dispatch Redux")));
     }
   }], [{
     key: "getInitialProps",
@@ -173,21 +197,14 @@ function (_Component) {
       var _getInitialProps = _asyncToGenerator(
       /*#__PURE__*/
       _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var _this2 = this;
-
         var store, isServer, pathname, query;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 store = _ref.store, isServer = _ref.isServer, pathname = _ref.pathname, query = _ref.query;
-                store.subscribe(function () {
-                  _this2.setState({
-                    name: store.getState().login.login
-                  });
-                });
 
-              case 2:
+              case 1:
               case "end":
                 return _context.stop();
             }
@@ -206,7 +223,20 @@ function (_Component) {
   return Home;
 }(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])()(Home));
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+  return {
+    changeLogin: function changeLogin(name) {
+      dispatch({
+        type: 'SUCCESS',
+        login: name
+      });
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(function (state) {
+  return state;
+}, mapDispatchToProps)(Home));
 
 /***/ }),
 

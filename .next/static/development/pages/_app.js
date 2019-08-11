@@ -13043,7 +13043,9 @@ var rootReducers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {
+    login: 'mik'
+  };
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
   switch (action.type) {

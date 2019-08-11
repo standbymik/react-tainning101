@@ -1,5 +1,5 @@
 
-export default function (state = {}, action) {
+export default function (state = {login:'mik'}, action) {
     switch (action.type) {
         case 'SUCCESS':
             return { login: action.login }
