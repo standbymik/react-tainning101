@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\notfound.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js":
 /*!*******************************************!*\
@@ -46,10 +46,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_79d71ed344e9fa2adb10
 
 /***/ }),
 
-/***/ "./pages/notfound.js":
-/*!***************************!*\
-  !*** ./pages/notfound.js ***!
-  \***************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77,34 +77,28 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var Notfound =
+var Home =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Notfound, _Component);
+  _inherits(Home, _Component);
 
-  function Notfound() {
-    _classCallCheck(this, Notfound);
+  function Home() {
+    _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Notfound).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Home).apply(this, arguments));
   }
 
-  _createClass(Notfound, [{
+  _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        style: {
-          textAlign: 'center',
-          height: '500px',
-          paddingTop: '10%'
-        }
-      }, "Not Found"));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Home");
     }
   }]);
 
-  return Notfound;
+  return Home;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Notfound);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -121,21 +115,21 @@ function (_Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/notfound")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/next/node_modules/webpack/buildin/harmony-module.js */ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 4:
-/*!*********************************!*\
-  !*** multi ./pages/notfound.js ***!
-  \*********************************/
+/***/ 3:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/notfound', function() {
-module.exports = __webpack_require__(/*! ./pages/notfound.js */"./pages/notfound.js");
+__NEXT_REGISTER_PAGE('/', function() {
+module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
 return { page: module.exports.default }});
 
@@ -152,5 +146,5 @@ module.exports = dll_79d71ed344e9fa2adb10;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=notfound.js.map
+},[[3,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=index.js.map

@@ -19,7 +19,7 @@
     "next": "^7.0.2",
     "next-redux-wrapper": "^2.0.0",
     "next-routes": "^1.4.2",
-    "nodemon": "^1.18.5",
+    "nodemon": "^1.19.3",
     "nookies": "^1.2.0",
     "path": "^0.12.7",
     "postcss-easy-import": "^3.0.0",
@@ -52,7 +52,7 @@
     "webpack": "^4.22.0"
   },
   "scripts": {
-    "dev": "node server",
+    "dev": "nodemon server",
     "prod": "pm2 start server.js --name react",
     "build": "next build",
     "storybook": "start-storybook -p 9002 -s .storybook",

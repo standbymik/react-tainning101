@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/notfound.js":
-/*!***************************!*\
-  !*** ./pages/notfound.js ***!
-  \***************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -124,45 +124,39 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var Notfound =
+var Home =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Notfound, _Component);
+  _inherits(Home, _Component);
 
-  function Notfound() {
-    _classCallCheck(this, Notfound);
+  function Home() {
+    _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Notfound).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Home).apply(this, arguments));
   }
 
-  _createClass(Notfound, [{
+  _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        style: {
-          textAlign: 'center',
-          height: '500px',
-          paddingTop: '10%'
-        }
-      }, "Not Found"));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Home");
     }
   }]);
 
-  return Notfound;
+  return Home;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Notfound);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 4:
-/*!*********************************!*\
-  !*** multi ./pages/notfound.js ***!
-  \*********************************/
+/***/ 3:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/notfound.js */"./pages/notfound.js");
+module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -179,4 +173,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=notfound.js.map
+//# sourceMappingURL=index.js.map

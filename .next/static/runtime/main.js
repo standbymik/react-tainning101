@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\StandbyMik\\Desktop\\standbymik\\basic-react\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\standbymik\\Desktop\\basic-react\\.next");
       return error;
     }
   };
@@ -17946,7 +17946,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\StandbyMik\Desktop\standbymik\basic-react\node_modules\next\dist\client\next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! C:\Users\standbymik\Desktop\basic-react\node_modules\next\dist\client\next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
